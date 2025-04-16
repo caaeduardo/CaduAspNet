@@ -1,12 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Emit;
+using System;
 
-namespace PrimeiroProjeto.Controllers
-{
-    public class ClienteController : Controller
-    {
-        public IActionResult Cadastrar()
-        {
-            return View();
-        }
-    }
-}
+
+ 
